@@ -12,10 +12,12 @@ const TodoItem = props => {
 
   return (
     <li className="todo-items-container">
-      <p className="todo-title">{title}</p>
-      <button className="todo-button" type="button" onClick={deleteTodoItem}>
-        Delete
-      </button>
+      <div className="todolists">
+        <p className="todo-title">{title}</p>
+        <button className="todo-button" type="button" onClick={deleteTodoItem}>
+          Delete
+        </button>
+      </div>
     </li>
   )
 }

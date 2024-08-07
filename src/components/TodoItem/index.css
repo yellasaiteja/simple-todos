@@ -2,6 +2,14 @@
 
 .todo-items-container {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todolists {
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
