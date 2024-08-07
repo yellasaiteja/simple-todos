@@ -1,0 +1,29 @@
+/* Write your CSS here */
+
+.todo-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffc2a0;
+  padding: 20px;
+  height: 100vh;
+}
+
+.todos-card {
+  background-color: #ffffff;
+  padding: 30px;
+  width: 90%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-heading {
+  color: #ff8542;
+}
+
+.todo-items-container {
+  list-style-type: none;
+  padding: 0;
+}

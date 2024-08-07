@@ -1,0 +1,22 @@
+/* Write your CSS here */
+
+.todo-items-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-title {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.todo-button {
+  color: #ff0b37;
+  background-color: #ffffff;
+  border: 1px solid #ff0b37;
+  border-radius: 5px;
+  height: 28px;
+  width: 60px;
+  font-weight: bold;
+}
