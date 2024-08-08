@@ -59,8 +59,7 @@ class SimpleTodos extends Component {
       <div className="todo-bg">
         <div className="todos-card">
           <h1 className="todo-heading">Simple Todos</h1>
-
-          <ul className="todo-items-container">
+          <ul className="todo-list">
             {todosList.map(eachTodo => (
               <TodoItem
                 todoItem={eachTodo}
